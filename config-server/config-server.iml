@@ -11,7 +11,9 @@
       </configuration>
     </facet>
     <facet type="Spring" name="Spring">
-      <configuration />
+      <configuration>
+        <fileset id="spring_boot_com.example.configserver.ConfigServerApplication" profiles="https://github.com/n1bil/config-server-repo" autodetected="true" />
+      </configuration>
     </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_17">
