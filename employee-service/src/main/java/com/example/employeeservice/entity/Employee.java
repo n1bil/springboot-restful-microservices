@@ -27,4 +27,6 @@ public class Employee {
 
     private String departmentCode;
 
+    private String organizationCode;
+
 }
