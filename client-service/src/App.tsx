@@ -1,12 +1,13 @@
 import './App.css'
+import { EmployeeComponent } from './component/EmployeeComponent'
+
 
 function App() {
   
-
   return (
-    <>
-      <h1>Hello world!</h1>
-    </>
+    <div className="container" style={{width: "600px"}}>
+      <EmployeeComponent />
+    </div>
   )
 }
 
